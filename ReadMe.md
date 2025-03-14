@@ -14,7 +14,7 @@ in the repository.
 
 - Novriansyah, N. (2024, November 10). Understanding Pull Requests: What They
   Are and Why They’re Named as Such. Medium; NovAI- Agile & DevOPS
-  101. https://medium.com/novai-devops-101/understanding-pull-requests-what-they-are-and-why-theyre-named-as-such-b4ec7cf85dcb
+    101. https://medium.com/novai-devops-101/understanding-pull-requests-what-they-are-and-why-theyre-named-as-such-b4ec7cf85dcb
 - What is a Pull Request in Git? | Intermediate Git Tutorial. (n.d.).
   Www.gitkraken.com. https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git
 - Philipp Lackner. (2023, June 21). Why Aren’t Pull Requests Called Push
@@ -108,6 +108,12 @@ pull the code changes from your own **fork**ed copy of the repository.
 
 Pull requests are a GITHUB (there are equivalents for GitLab, BitBucket and
 other VCS) specific feature and not part of Git.
+
+For more details see:
+
+- Novriansyah, N. (2024, November 10). Understanding Pull Requests: What They
+  Are and Why They’re Named as Such. Medium; NovAI- Agile & DevOPS 101.
+  https://medium.com/novai-devops-101/understanding-pull-requests-what-they-are-and-why-theyre-named-as-such-b4ec7cf85dcb
 
 ### Create a local branch
 
