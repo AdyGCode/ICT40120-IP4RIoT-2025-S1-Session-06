@@ -95,12 +95,11 @@ PULL is a FETCH with a MERGE
 
 ### Why are pull requests called "Pull Requests"? (wrong answer)
 
-Pull requests are so named basically because you are asking to _pull_ changes
-from a remote to your local repository. And that's because you have to ask
-permission to copy changes out of the repository, even if you have read access
-to that repository.
+Pull requests are the act of asking the owner of the original repository to 
+pull the code changes from your own **fork**ed copy of the repository.
 
-<!--TODO: This answer is SO wrong, I think we need to fix it! -->
+Pull requests are a GITHUB (there are equivalents for GitLab, BitBucket and 
+other VCS) specific feature and not part of Git.
 
 ### Create a local branch
 
