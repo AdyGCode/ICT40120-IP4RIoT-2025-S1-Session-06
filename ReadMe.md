@@ -12,7 +12,13 @@ in your contribution and merge them into their branch. Pull requests show
 differences between the content from both branches and the changes are visible
 in the repository.
 
-<!-- TODO: Add information on PRs and forks. -->
+- Novriansyah, N. (2024, November 10). Understanding Pull Requests: What They
+  Are and Why They’re Named as Such. Medium; NovAI- Agile & DevOPS
+  101. https://medium.com/novai-devops-101/understanding-pull-requests-what-they-are-and-why-theyre-named-as-such-b4ec7cf85dcb
+- What is a Pull Request in Git? | Intermediate Git Tutorial. (n.d.).
+  Www.gitkraken.com. https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git
+- Philipp Lackner. (2023, June 21). Why Aren’t Pull Requests Called Push
+  Requests? YouTube. https://www.youtube.com/watch?v=G6sxZY1kNoM
 
 ## Set up your environment
 
@@ -39,10 +45,9 @@ original.
 3. Name your repository `ICT40120-IP4RIoT-Session-06`.
    **IMPORTANT:** Do not initialize the repository with a `README`,
    `.gitignore`, or license.
-4. Note the name of your repository `URL` here, as you'll need this 
+4. Note the name of your repository `URL` here, as you'll need this
    information later.
-   - *https://github.com/AdyGCode/ICT40120-IP4RIoT-2025-S1-Session-06*
-      
+    - *https://github.com/AdyGCode/ICT40120-IP4RIoT-2025-S1-Session-06*
 
 ### Add the remote repository
 
@@ -65,24 +70,27 @@ PULL is a FETCH with a MERGE
 
 ---
 
-   - Check the status of the files using: 
+- Check the status of the files using:
+
    ```shell
    git status
    ```
 
-   - Add the files to stash (`.` adds all changed files and folders, use 
-     carefully)
+- Add the files to stash (`.` adds all changed files and folders, use
+  carefully)
+
    ```shell
    git add .
    ```
 
-   - Commit the files
+- Commit the files
+
    ```shell
    git commit -m "init: Start of the IP4RIoT Session 06 Practice"
    ```
+
    
 ---
-
 
 4. Push the local repository to the remote repository.
 
@@ -95,10 +103,10 @@ PULL is a FETCH with a MERGE
 
 ### Why are pull requests called "Pull Requests"? (wrong answer)
 
-Pull requests are the act of asking the owner of the original repository to 
+Pull requests are the act of asking the owner of the original repository to
 pull the code changes from your own **fork**ed copy of the repository.
 
-Pull requests are a GITHUB (there are equivalents for GitLab, BitBucket and 
+Pull requests are a GITHUB (there are equivalents for GitLab, BitBucket and
 other VCS) specific feature and not part of Git.
 
 ### Create a local branch
