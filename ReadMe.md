@@ -39,9 +39,10 @@ original.
 3. Name your repository `ICT40120-IP4RIoT-Session-06`.
    **IMPORTANT:** Do not initialize the repository with a `README`,
    `.gitignore`, or license.
-4. Note the name of your repository `URL` here: *
-   *https://github.com/AdyGCode/ICT40120-IP4RIoT-2025-S1-Session-06**
-   You'll need this information later.
+4. Note the name of your repository `URL` here, as you'll need this 
+   information later.
+   - *https://github.com/AdyGCode/ICT40120-IP4RIoT-2025-S1-Session-06*
+      
 
 ### Add the remote repository
 
@@ -63,6 +64,25 @@ git remote -v
 PULL is a FETCH with a MERGE
 
 ---
+
+   - Check the status of the files using: 
+   ```shell
+   git status
+   ```
+
+   - Add the files to stash (`.` adds all changed files and folders, use 
+     carefully)
+   ```shell
+   git add .
+   ```
+
+   - Commit the files
+   ```shell
+   git commit -m "init: Start of the IP4RIoT Session 06 Practice"
+   ```
+   
+---
+
 
 4. Push the local repository to the remote repository.
 
